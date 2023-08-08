@@ -1,0 +1,59 @@
+/* Start Title */
+.title {
+  padding-bottom: 80px;
+}
+
+.title .title-container .title-box img {
+  width: 101.5%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.title .title-container .title-box .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title .title-container .title-box .content button {
+  color: #fff;
+  background-color: var(--main-color);
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.title .title-container .title-box .content button:hover {
+  background-color: #2177be;
+}
+
+.title .title-container .title-box p {
+  color: var(--p-color);
+  line-height: var(--p-ln-hight);
+}
+
+.title .title-container .title-box .content p {
+  color: #899faa;
+}
+
+@media (max-width: 450px) {
+  .title .title-container .title-box .content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .title .title-container .title-box .content p {
+    padding-bottom: 20px;
+  }
+}
+/* End Title */
