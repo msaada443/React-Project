@@ -8,14 +8,4 @@ const QuestionsBox = (props) => {
   );
 };
 
-const btn = document.getElementsByClassName("accordion");
-const info = document.getElementsByClassName("info");
-
-for (let i = 0; i < btn.length; i++) {
-  btn[i].addEventListener("click", () => {
-    btn[i].classList.toggle("mark");
-    info[i].classList.toggle("hide");
-  });
-}
-
 export default QuestionsBox;
